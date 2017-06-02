@@ -26,9 +26,9 @@ JGUnlimitedScrollView *scrollView = [[JGUnlimitedScrollView alloc] initWithFrame
 scrollView.bannerImages = banners;
 [self.view addSubview:scrollView];
 ---------------------------------------------------------------------------------------------------------------
-
-### * 实现静态(需手动)滚动banner，只需要将"isOpenAutoMove"这个属性设置成NO即可，代码如下：
 ```objc
+### * 实现静态(需手动)滚动banner，只需要将"isOpenAutoMove"这个属性设置成NO即可，代码如下：
+
 /**  组装所需要轮播的图片数组  */
 NSArray *banners = @[[UIImage imageNamed:@"h1.jpg"],@"h2",@"h3.jpg",@"h4.jpg"];
 
