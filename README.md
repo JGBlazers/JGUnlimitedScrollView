@@ -1,19 +1,21 @@
 # ☆☆☆ JGUnlimitedScrollView(无限轮播器) ☆☆☆ 
-###
-## ☆☆☆ “一、功能预览图” ☆☆☆
-![普通情况和手动轮播预览](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/普通情况和手动轮播预览.gif)
-![网络图片加载和垂直滚动](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/网络图片加载和垂直滚动.gif)
-![自定义UIPageControl](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/自定义UIPageControl.gif)
-
 
 ###
-## ☆☆☆ “二、总体功能介绍” ☆☆☆
+## ☆☆☆ “一、总体功能介绍” ☆☆☆
 ### * 静态(需手动)滚动banner
 ### * 自动滚动banner(无限自动滚动)
 ### * 支持上下滚动
 ### * 支持图片和文字同时展示
 ### * 如果现有的UIPageControl不满足需要的情况下，可参考demo，将自己的UIPageControl无缝联结到轮播器中
 ### * 加载的图片，支持的类型有：jpg、png、UIImage对象、URL、图片的URL地址等
+---------------------------------------------------------------------------------------------------------------
+
+
+###
+## ☆☆☆ “二、功能预览图” ☆☆☆
+![普通情况和手动轮播预览](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/普通情况和手动轮播预览.gif)
+![网络图片加载和垂直滚动](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/网络图片加载和垂直滚动.gif)
+![自定义UIPageControl](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/自定义UIPageControl.gif)
 ---------------------------------------------------------------------------------------------------------------
 
 ## ☆☆☆ “三、轮播器的基本使用和详细功能分析” ☆☆☆
