@@ -1,6 +1,13 @@
 # ☆☆☆ JGUnlimitedScrollView(无限轮播器) ☆☆☆ 
 ###
-## ☆☆☆ “一、总体功能介绍” ☆☆☆
+## ☆☆☆ “一、功能预览图” ☆☆☆
+![普通情况和手动轮播预览](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/普通情况和手动轮播预览.gif)
+![网络图片加载和垂直滚动](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/网络图片加载和垂直滚动.gif)
+![自定义UIPageControl](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/自定义UIPageControl.gif)
+
+
+###
+## ☆☆☆ “二、总体功能介绍” ☆☆☆
 ### * 静态(需手动)滚动banner
 ### * 自动滚动banner(无限自动滚动)
 ### * 支持上下滚动
@@ -9,7 +16,7 @@
 ### * 加载的图片，支持的类型有：jpg、png、UIImage对象、URL、图片的URL地址等
 ---------------------------------------------------------------------------------------------------------------
 
-## ☆☆☆ “二、轮播器的基本使用和详细功能分析” ☆☆☆
+## ☆☆☆ “三、轮播器的基本使用和详细功能分析” ☆☆☆
 ###
 ### * 普通情况下，一步创建轮播器，实现代码如下：
 #### 1、 初始化方法方式一：先通过系统的常规初始化方法，将轮播器初始化，后面再传入对应需要轮播的图片即可
