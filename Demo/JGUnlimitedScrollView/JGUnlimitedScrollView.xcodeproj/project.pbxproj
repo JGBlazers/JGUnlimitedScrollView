@@ -33,16 +33,16 @@
 		5D0C492A1EE0131900AEE90E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C490A1EE0131900AEE90E /* UIImageView+WebCache.m */; };
 		5D0C492B1EE0131900AEE90E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C490C1EE0131900AEE90E /* UIView+WebCacheOperation.m */; };
 		5D0C492C1EE0131900AEE90E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C490E1EE0131900AEE90E /* ViewController.m */; };
-		5D0C49361EE0142400AEE90E /* jg_imageview_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C492F1EE0142400AEE90E /* jg_imageview_placeholder@2x.png */; };
-		5D0C49371EE0142400AEE90E /* JGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C49311EE0142400AEE90E /* JGImageView.m */; };
-		5D0C49381EE0142400AEE90E /* JGUnlimitedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C49331EE0142400AEE90E /* JGUnlimitedScrollView.m */; };
-		5D0C49391EE0142400AEE90E /* JGUnlimtedScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C49351EE0142400AEE90E /* JGUnlimtedScrollViewItem.m */; };
 		5D40D24F1EE10DBA0054239A /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D24A1EE10DBA0054239A /* h1.jpg */; };
 		5D40D2501EE10DBA0054239A /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D24B1EE10DBA0054239A /* h2.jpg */; };
 		5D40D2511EE10DBA0054239A /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D24C1EE10DBA0054239A /* h3.jpg */; };
 		5D40D2521EE10DBA0054239A /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D24D1EE10DBA0054239A /* h4.jpg */; };
 		5D40D2531EE10DBA0054239A /* h5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D24E1EE10DBA0054239A /* h5.jpg */; };
 		5D40D2551EE10DD20054239A /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D40D2541EE10DD20054239A /* bg.jpg */; };
+		5DA761E21EF2588A00200578 /* jg_imageview_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA761DB1EF2588A00200578 /* jg_imageview_placeholder@2x.png */; };
+		5DA761E31EF2588A00200578 /* JGImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA761DD1EF2588A00200578 /* JGImageView.m */; };
+		5DA761E41EF2588A00200578 /* JGUnlimitedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA761DF1EF2588A00200578 /* JGUnlimitedScrollView.m */; };
+		5DA761E51EF2588A00200578 /* JGUnlimtedScrollViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA761E11EF2588A00200578 /* JGUnlimtedScrollViewItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,19 +116,19 @@
 		5D0C490C1EE0131900AEE90E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		5D0C490D1EE0131900AEE90E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5D0C490E1EE0131900AEE90E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5D0C492F1EE0142400AEE90E /* jg_imageview_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_imageview_placeholder@2x.png"; sourceTree = "<group>"; };
-		5D0C49301EE0142400AEE90E /* JGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImageView.h; sourceTree = "<group>"; };
-		5D0C49311EE0142400AEE90E /* JGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGImageView.m; sourceTree = "<group>"; };
-		5D0C49321EE0142400AEE90E /* JGUnlimitedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGUnlimitedScrollView.h; sourceTree = "<group>"; };
-		5D0C49331EE0142400AEE90E /* JGUnlimitedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGUnlimitedScrollView.m; sourceTree = "<group>"; };
-		5D0C49341EE0142400AEE90E /* JGUnlimtedScrollViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGUnlimtedScrollViewItem.h; sourceTree = "<group>"; };
-		5D0C49351EE0142400AEE90E /* JGUnlimtedScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGUnlimtedScrollViewItem.m; sourceTree = "<group>"; };
 		5D40D24A1EE10DBA0054239A /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		5D40D24B1EE10DBA0054239A /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		5D40D24C1EE10DBA0054239A /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
 		5D40D24D1EE10DBA0054239A /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
 		5D40D24E1EE10DBA0054239A /* h5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h5.jpg; sourceTree = "<group>"; };
 		5D40D2541EE10DD20054239A /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		5DA761DB1EF2588A00200578 /* jg_imageview_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jg_imageview_placeholder@2x.png"; sourceTree = "<group>"; };
+		5DA761DC1EF2588A00200578 /* JGImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGImageView.h; sourceTree = "<group>"; };
+		5DA761DD1EF2588A00200578 /* JGImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGImageView.m; sourceTree = "<group>"; };
+		5DA761DE1EF2588A00200578 /* JGUnlimitedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGUnlimitedScrollView.h; sourceTree = "<group>"; };
+		5DA761DF1EF2588A00200578 /* JGUnlimitedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGUnlimitedScrollView.m; sourceTree = "<group>"; };
+		5DA761E01EF2588A00200578 /* JGUnlimtedScrollViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGUnlimtedScrollViewItem.h; sourceTree = "<group>"; };
+		5DA761E11EF2588A00200578 /* JGUnlimtedScrollViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGUnlimtedScrollViewItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,7 @@
 		5D0C48A11EE0122D00AEE90E /* JGUnlimitedScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				5D0C492D1EE0142400AEE90E /* JGUnlimitedScrollView_Lib */,
+				5DA761D91EF2588A00200578 /* JGUnlimitedScrollView */,
 				5D0C48A51EE0122D00AEE90E /* AppDelegate.h */,
 				5D0C48A61EE0122D00AEE90E /* AppDelegate.m */,
 				5D0C490D1EE0131900AEE90E /* ViewController.h */,
@@ -286,25 +286,25 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		5D0C492D1EE0142400AEE90E /* JGUnlimitedScrollView_Lib */ = {
+		5DA761D91EF2588A00200578 /* JGUnlimitedScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				5D0C492E1EE0142400AEE90E /* Image */,
-				5D0C49301EE0142400AEE90E /* JGImageView.h */,
-				5D0C49311EE0142400AEE90E /* JGImageView.m */,
-				5D0C49321EE0142400AEE90E /* JGUnlimitedScrollView.h */,
-				5D0C49331EE0142400AEE90E /* JGUnlimitedScrollView.m */,
-				5D0C49341EE0142400AEE90E /* JGUnlimtedScrollViewItem.h */,
-				5D0C49351EE0142400AEE90E /* JGUnlimtedScrollViewItem.m */,
+				5DA761DA1EF2588A00200578 /* Image */,
+				5DA761DC1EF2588A00200578 /* JGImageView.h */,
+				5DA761DD1EF2588A00200578 /* JGImageView.m */,
+				5DA761DE1EF2588A00200578 /* JGUnlimitedScrollView.h */,
+				5DA761DF1EF2588A00200578 /* JGUnlimitedScrollView.m */,
+				5DA761E01EF2588A00200578 /* JGUnlimtedScrollViewItem.h */,
+				5DA761E11EF2588A00200578 /* JGUnlimtedScrollViewItem.m */,
 			);
-			name = JGUnlimitedScrollView_Lib;
-			path = ../../JGUnlimitedScrollView_Lib;
+			name = JGUnlimitedScrollView;
+			path = ../../../JGUnlimitedScrollView;
 			sourceTree = "<group>";
 		};
-		5D0C492E1EE0142400AEE90E /* Image */ = {
+		5DA761DA1EF2588A00200578 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				5D0C492F1EE0142400AEE90E /* jg_imageview_placeholder@2x.png */,
+				5DA761DB1EF2588A00200578 /* jg_imageview_placeholder@2x.png */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -422,12 +422,12 @@
 				5D40D2511EE10DBA0054239A /* h3.jpg in Resources */,
 				5D40D2521EE10DBA0054239A /* h4.jpg in Resources */,
 				5D40D24F1EE10DBA0054239A /* h1.jpg in Resources */,
+				5DA761E21EF2588A00200578 /* jg_imageview_placeholder@2x.png in Resources */,
 				5D40D2531EE10DBA0054239A /* h5.jpg in Resources */,
 				5D0C48B21EE0122D00AEE90E /* LaunchScreen.storyboard in Resources */,
 				5D0C48AF1EE0122D00AEE90E /* Assets.xcassets in Resources */,
 				5D40D2501EE10DBA0054239A /* h2.jpg in Resources */,
 				5D0C48AD1EE0122D00AEE90E /* Main.storyboard in Resources */,
-				5D0C49361EE0142400AEE90E /* jg_imageview_placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +455,7 @@
 				5D0C492A1EE0131900AEE90E /* UIImageView+WebCache.m in Sources */,
 				5D0C49261EE0131900AEE90E /* UIImage+GIF.m in Sources */,
 				5D0C491F1EE0131900AEE90E /* SDWebImageCompat.m in Sources */,
-				5D0C49371EE0142400AEE90E /* JGImageView.m in Sources */,
+				5DA761E31EF2588A00200578 /* JGImageView.m in Sources */,
 				5D0C49251EE0131900AEE90E /* UIButton+WebCache.m in Sources */,
 				5D0C49271EE0131900AEE90E /* UIImage+MultiFormat.m in Sources */,
 				5D0C49241EE0131900AEE90E /* SDWebImagePrefetcher.m in Sources */,
@@ -468,8 +468,8 @@
 				5D0C48A71EE0122D00AEE90E /* AppDelegate.m in Sources */,
 				5D0C49291EE0131900AEE90E /* UIImageView+HighlightedWebCache.m in Sources */,
 				5D0C491D1EE0131900AEE90E /* NSData+ImageContentType.m in Sources */,
-				5D0C49381EE0142400AEE90E /* JGUnlimitedScrollView.m in Sources */,
-				5D0C49391EE0142400AEE90E /* JGUnlimtedScrollViewItem.m in Sources */,
+				5DA761E41EF2588A00200578 /* JGUnlimitedScrollView.m in Sources */,
+				5DA761E51EF2588A00200578 /* JGUnlimtedScrollViewItem.m in Sources */,
 				5D0C49211EE0131900AEE90E /* SDWebImageDownloader.m in Sources */,
 				5D0C49101EE0131900AEE90E /* JGTestCustomPageControl.m in Sources */,
 				5D0C492C1EE0131900AEE90E /* ViewController.m in Sources */,
