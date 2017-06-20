@@ -85,6 +85,11 @@
         _currentPageColor = [UIColor orangeColor];
         _otherPageColor = [UIColor whiteColor];
         
+        // 配置item内的空间属性
+        _contentBgColor = [UIColor colorWithWhite:0 alpha:0.6];
+        _contentTitleColor = [UIColor whiteColor];
+        _contentTextAlignment = NSTextAlignmentLeft;
+        
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
         flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         flowLayout.minimumLineSpacing = 0;
@@ -334,6 +339,11 @@
     }
     
     [item setItemWithBannerImage:self.bannerImages[indexPath.row % self.bannerImages.count] content:content placeholder:self.placeHolderImgView.image];
+    
+    item.contentBgView.backgroundColor = self.contentBgColor;
+    item.contentLabel.textColor = self.contentTitleColor;
+    item.contentLabel.textAlignment = self.contentTextAlignment;
+    
     return item;
 }
 

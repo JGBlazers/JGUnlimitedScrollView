@@ -14,12 +14,6 @@
 /**  图片  */
 @property (nonatomic, strong) JGImageView *jg_imgView;
 
-/**  内容背景  */
-@property (nonatomic, strong) UIView *contentBgView;
-
-/**  显示的内容标签 如果没有内容就隐藏  */
-@property (nonatomic, strong) UILabel *contentLabel;
-
 @end
 
 @implementation JGUnlimtedScrollViewItem

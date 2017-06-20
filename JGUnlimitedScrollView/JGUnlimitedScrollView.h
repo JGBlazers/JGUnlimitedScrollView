@@ -55,9 +55,6 @@ typedef enum {
 /**  占位图，默认为工具类自带的占位图  */
 @property (nonatomic, strong) UIImage *placeholder;
 
-/**  图片附带的内容数组  特别注意，内容数组的个数和图片的个数不一致的情况下，也显示不出来  */
-@property (nonatomic, strong) NSArray *contentArray;
-
 /**  是否开启自动轮播 默认是自动轮播，但是如果图片的数组个数<2时也不会自动播放  */
 @property (nonatomic, assign) BOOL isOpenAutoMove;
 
@@ -69,6 +66,21 @@ typedef enum {
 
 /**  分页标记UIPageControl的位置配置  */
 @property (nonatomic, assign) JGUnlimitedPageControlStyle pageControlStyle;
+
+
+// --------------------------  此为配置item(cell)的相关控件属性  -----------------------
+
+/**  图片附带的内容数组  特别注意，内容数组的个数和图片的个数不一致的情况下，也显示不出来  */
+@property (nonatomic, strong) NSArray *contentArray;
+
+/**  content 内容的背景颜色  默认黑色透明  */
+@property (nonatomic, strong) UIColor *contentBgColor;
+
+/**  title 内容的标题的字体颜色 默认白色  */
+@property (nonatomic, strong) UIColor *contentTitleColor;
+
+/**  textAlignment 内容的标题对齐方式  默认左对齐  */
+@property (nonatomic, assign) NSTextAlignment contentTextAlignment;
 
 
 // --------------------------  此为配置UIPageControl的相关属性  -----------------------
