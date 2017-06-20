@@ -306,14 +306,18 @@
         if (self.delegate && [self.delegate respondsToSelector:@selector(unlimitedScrollView:didMoveWithIndex:)]) {
             [self.delegate unlimitedScrollView:self didMoveWithIndex:self.pageControl.currentPage];
         }
-    });
-    
-    if (pageNum >= self.bannerImages.count) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:self.pageControl.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            if (pageNum == 0 || pageNum == self.bannerImages.count * 2 - 1) {
+                if (pageNum == 0) {
+                    pageNum = self.bannerImages.count;
+                } else {
+                    pageNum = self.bannerImages.count - 1;
+                }
+                
+                [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:pageNum inSection:0] atScrollPosition:UICollectionViewScrollPositionNone animated:NO];
+            }
         });
-        return;
-    }
+    });
 }
 
 #pragma - mark      ---------- UICollectionView DataSourse ----------
