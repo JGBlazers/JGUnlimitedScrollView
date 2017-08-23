@@ -9,8 +9,6 @@
 #import "ViewController.h"
 #import "DemoViewController.h"
 
-#import "SDWebImageManager.h"
-
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
@@ -20,8 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"无限轮播器";
-    
-    [[[SDWebImageManager sharedManager] imageCache] clearDiskOnCompletion:nil];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     tableView.dataSource = self;

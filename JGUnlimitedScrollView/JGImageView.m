@@ -7,7 +7,6 @@
 //
 
 #import "JGImageView.h"
-#import "UIImageView+WebCache.h"
 
 @interface JGImageView ()
 
@@ -25,13 +24,22 @@
 - (void)jg_image:(id)image placeholder:(UIImage *)placeholder {
     if (image == nil) return;
     
+    self.image = placeholder;
     if ([image isKindOfClass:[NSString class]]) {
         NSString *imageStr = (NSString *)image;
         
         if ([imageStr containsString:@"http://"] || [imageStr containsString:@"https://"]) {
             
+            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+                NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageStr]];
+                UIImage *image = [[UIImage alloc] initWithData:data];
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    self.image = image;
+                });
+            });
+            /*
             [self sd_setImageWithURL:[NSURL URLWithString:imageStr] placeholderImage:placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-            }];
+            }];*/
         } else {
             UIImage *image = [UIImage imageNamed:imageStr];
             if (image == nil) {
@@ -48,8 +56,16 @@
         self.image = image;
     } else if ([image isKindOfClass:[NSURL class]]) {
         
+        dispatch_async(dispatch_get_global_queue(0, 0), ^{
+            NSData *data = [NSData dataWithContentsOfURL:(NSURL *)image];
+            UIImage *image = [[UIImage alloc] initWithData:data];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.image = image;
+            });
+        });
+        /*
         [self sd_setImageWithURL:(NSURL *)image placeholderImage:placeholder completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        }];
+        }];*/
     }
     
 }
