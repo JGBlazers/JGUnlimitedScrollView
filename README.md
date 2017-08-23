@@ -19,6 +19,11 @@
 ![自定义UIPageControl](https://github.com/fcgIsPioneer/iOS_Demo_Gif_manager/blob/master/无限轮播器(JGUnlimitedScrollView)/自定义UIPageControl.gif)
 ---------------------------------------------------------------------------------------------------------------
 
+#### JGWebView 的集成
+* **CocoaPods方式集成 (推荐使用此方式)** : 在pod创建时的Podfile文件中，添加上pod 'JGUnlimitedScrollView'，然后在终端切换到项目根目录下，执行命令**pod update**，接着执行**pod install**即可
+*  **手动集成**: 打开地址[https://github.com/fcgIsPioneer/JGUnlimitedScrollView.git](https://github.com/fcgIsPioneer/JGUnlimitedScrollView.git)下载或者克隆下来之后，将JGUnlimitedScrollView文件夹，拖到项目中即可
+*****
+
 ## ☆☆☆ “三、轮播器的基本使用和详细功能分析” ☆☆☆
 ###
 ### * 普通情况下，一步创建轮播器，实现代码如下：
